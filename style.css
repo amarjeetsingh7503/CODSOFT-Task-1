@@ -154,12 +154,18 @@ nav a {
 }
 
 .plan-button {
-    background-color: orangered;
+    background-color: #fe0000;
     color: whitesmoke;
     border: none;
-    border-radius: 5px;
+    border-radius: 35px;
     padding: 10px;
     margin: 20px;
+    transition: transform 0.3s;
+}
+
+.plan-button:hover{
+    transform: scale(1.05);
+    background-color: #fd4c4c;
 }
 
 .queries {
@@ -305,10 +311,7 @@ footer {
     }
 
     .plan-button {
-        background-color: orangered;
-        color: whitesmoke;
-        border: none;
-        border-radius: 35px;
+        background-color: #fe0000;
         padding: 8px 15px;
         margin: 10px;
     }
