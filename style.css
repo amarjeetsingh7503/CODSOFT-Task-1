@@ -314,8 +314,13 @@ footer {
     }
 
     input {
-        width: 250px;
-        height: 50px;
+        width: 300px;
+        height: 30px;
+    }
+
+    .query-btn {
+        width: 80px;
+        height: 30px;
     }
 
     .queries-heading{
